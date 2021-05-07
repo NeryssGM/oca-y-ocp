@@ -9,8 +9,12 @@ package Additional;
  *
  * @author HUGO
  */
-public class Bobcat {
+public class P056Bobcat {
     public void findDen(){
-        System.out.println("Este es el metodo padre.");
+        System.out.println("Este es el metodo padre Overload");
+    }
+    
+    public void testOverride(){
+        System.out.println("Este es el padre Override");
     }
 }

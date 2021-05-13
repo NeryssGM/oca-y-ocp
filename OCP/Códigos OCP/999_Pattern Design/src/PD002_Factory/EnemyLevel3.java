@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg999_pattern.design;
+package PD002_Factory;
 
 /**
  *
  * @author HUGO
  */
-public class Design {
+public class EnemyLevel3 implements IEnemy{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    @Override
+    public void create() {
+        System.out.println("Create enemy of level 003");
     }
     
 }

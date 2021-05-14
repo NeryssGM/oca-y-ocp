@@ -11,7 +11,7 @@ import java.util.Random;
  *
  * @author HUGO
  */
-public class Test {
+public class TestFactory {
     public static void main(String[] args){
         new FactoryEnemysRandom().CreateEnemys(20);
     }

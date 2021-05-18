@@ -5,7 +5,6 @@
  */
 package pkg001_advanced_class_design;
 
-import Additional.P057Cat;
 import Additional.P057Lion;
 
 /**
@@ -13,6 +12,7 @@ import Additional.P057Lion;
  * @author HUGO
  */
 public class P057_Abstract_Classes {
+
+    P057Lion lion= new P057Lion();
     
-    P057Cat lion= new P057Lion();
 }
